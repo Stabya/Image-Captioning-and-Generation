@@ -1,7 +1,7 @@
-###Introduction
+### Introduction
 This Flask-based image processing system is designed to facilitate image captioning, question-answering about images, and image generation using pre-trained models and the Hugging Face API. The system integrates the BLIP (Bootstrapped Language Image Pre-training) model for visual question answering (VQA) and image captioning, and uses the Stable Diffusion model for image generation. The user can upload an image, ask questions about it, generate captions, and create new images from text descriptions. The system handles large image uploads, tracks session history, and rotates API keys for sustained usage.
 
-###Prerequisites
+### Prerequisites
 * **Flask (instructions)**
 * **Torch (instructions)**
 * **Transformers (instructions)**
@@ -9,7 +9,7 @@ This Flask-based image processing system is designed to facilitate image caption
 * **Requests (instructions)**
 * **Werkzeug (instructions)**
 * **Base64 (comes with Python)**
-###Usage
+### Usage
 * **Upload an Image:**
 Upload an image in PNG, JPG, or JPEG format, generate a caption, and save the image and its caption.
 
