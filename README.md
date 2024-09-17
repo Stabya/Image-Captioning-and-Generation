@@ -13,10 +13,10 @@ This Flask-based image processing system is designed to facilitate image caption
 * **Upload an Image:**
 Upload an image in PNG, JPG, or JPEG format, generate a caption, and save the image and its caption.
 
-Endpoint: /upload
-Method: POST
-Parameters:
-image: The image file to be uploaded.
+* Endpoint: /upload
+* Method: POST
+* Parameters:
+* image: The image file to be uploaded.
 Response:
 A generated caption for the image.
 The Base64-encoded image data.
