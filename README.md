@@ -17,39 +17,43 @@ Upload an image in PNG, JPG, or JPEG format, generate a caption, and save the im
 * Method: POST
 * Parameters:
 * image: The image file to be uploaded.
-Response:
-A generated caption for the image.
-The Base64-encoded image data.
-A unique image_id used for further interactions.
+* Response:
+* A generated caption for the image.
+* The Base64-encoded image data.
+* A unique image_id used for further interactions.
+  
 * **Ask a Question About an Image:**
 Submit a question related to a previously uploaded image and get an answer.
 
-Endpoint: /question
-Method: POST
-Parameters:
-question: A textual question about the image.
-image_id: The ID of the image (obtained from the upload response).
-Response:
-The generated answer to the question.
-The image caption and history.
+* Endpoint: /question
+* Method: POST
+* Parameters:
+* question: A textual question about the image.
+* image_id: The ID of the image (obtained from the upload response).
+* Response:
+* The generated answer to the question.
+* The image caption and history.
+
 * **Generate an Image from a Description:**
 Generate an image based on a text description using Stable Diffusion.
 
-Endpoint: /generate
-Method: POST
-Parameters:
-description: Text description of the image.
-Optional: height, width, num_inference_steps for customizing the generation.
-Response:
-The Base64-encoded generated image.
-The image file path.
+* Endpoint: /generate
+* Method: POST
+* Parameters:
+* description: Text description of the image.
+* Optional: height, width, num_inference_steps for customizing the generation.
+* Response:
+* The Base64-encoded generated image.
+* The image file path.
+
 * **View Image Summaries and Question History:**
 View the history of uploaded images, their captions, and the questions asked about them.
 
-Endpoint: /history
-Method: GET
-Response:
-A JSON containing image summaries and questions.
+* Endpoint: /history
+* Method: GET
+* Response:
+* A JSON containing image summaries and questions.
+
 * **Model Training and Setup:**
 There is no explicit model training in this system, but pre-trained models are loaded on startup:
 
