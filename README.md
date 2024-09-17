@@ -86,5 +86,5 @@ Generated images, captions, and answers to questions are saved and can be retrie
 - **BLIP:** [Bootstrapped Language Image Pre-training](https://arxiv.org/abs/2201.12086)
 - **Hugging Face:** [Stable Diffusion API](https://huggingface.co/)
 - **Flask Documentation:** [Flask](https://flask.palletsprojects.com/)
-- **Microsoft COCO Dataset:** [COCO](https://cocodataset.org/)
+
 
